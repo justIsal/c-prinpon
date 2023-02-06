@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navigation">
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+        <div class="nav__menu">
+            <ul>
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="index.html#about" class="nav__link">About</a></li>
+                <li><a href="index.html#ourWork" class="nav__link">Our Work</a></li>
+                <li><a href="#blog" class="nav__link active-link">Blog</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- blog -->
+    <section id="blog">
+        <header>
+            <div class="jambotron">
+                <p>Our Blog</p>
+                <h1 class="heading">Solution and tips <br>about web programming</h1>
+            </div>
+        </header>
+        <div class="max-width">
+            <div class="blog-content">
+                <div id="content" class="content">
+                    <article class="article-1">
+                        <h1 class="header">Pengertian,sejarah, dan cara kerja HTML</h1>
+                        <p class="date"><i>14 mei 2022</i></p>
+                        <h3>Pengertian HTML</h3>
+                        <p class="article-text">HTML merupakan singkatan Hyper Text Markup Language adalah bahasa
+                            markup, untuk membuat struktur halaman sebuah website. HTML merupakan pondasi penting dalam
+                            pembuatan sebuah website.</p>
+                        <h3>sejarah HTML</h3>
+                        <p class="article-text">HTML di ciptakan oleh Tim Berners-Lee merupakan seorang fisikawan di
+                            lembaga penelitian CERN,Swiss. Beliau merupakan seseorang yang berjasa bagi kita, karena
+                            beliau kita bisa mengakses website setiap hari, pada tahun 1991, Tim merilis versi html
+                            pertama yang di dalamnya terdapat sekitar 18 tag. Bisa di lihat di link berikut … html
+                            tersebut berisi tentang panduan membuat laman web dan elemen hypertext yang digunakan dalam
+                            prosesnya.
+                            Tim bernerslee juga merupakan seorang direktur dari organisasi World Wide Web
+                            Consortium(W3C) di massachusetts Institute Of technology. W3C merupakan sebuah organisasi
+                            yang mengakomodir aturan-aturan yang di web browser, seperti pegembangan html hingga saat
+                            ini HTML 5, mengalami perubahan yang signifikan seperti dan terdapat fitur semantic untuk
+                            memudahkan developer, seperti<b> &lt;article&gt;, &lt;footer&gt;, &lt;header&gt;, dan
+                                &lt;main&gt;</b>.</p>
+                            <h3>Fungsi</h3>
+                            <p class="article-text">HTML berfungsi untuk bagaimana cara menampilkan sebuah kontent ke
+                                dalam sebuah browser, HTML sering di kolaborasikan dengan penggunaan CSS (Casecade Style
+                                Sheet) serta javascript. Dimana HTML berfungsi untuk membuat kerangka dan struktur
+                                halaman sebuah website, CSS berfungsi untuk memberikan tampilan desain seperti perubahan
+                                warna, font, mengatur margin dan lain sebagainya, dan JavaScript merupakan bahasa
+                                pemrograman untuk membuat website tersebut menjadi interaktif.</p>
+                            <h3>kerangka Inti HTML dan cara kerja HTML</h3>
+                            <ul class="list">
+                                <li>Tag</li>
+                                <p>Tag merupakan perintah atau awalan instruksi yang nantinya akan di tampilkan pada web
+                                    browser. Seperti <b>&lt;p&gt;</b> untuk menampilkan paragraf, <b>&lt;li&gt;</b>
+                                    untuk mebuat list, <b>&lt;h1&gt;</b> untuk membuat judul, dan lain sebagainya.</p>
+                                <pre>  <code>&lt;p&gt;ini adalah sebuah paragraf &lt;/p&gt;</code></pre>
+                                <img src="image/tag.png" alt="" class="img-responsive" width="700px">
+                                <li>Element</li>
+                                <p>Element merupakan proses keseluruhan kode di mulai dari tag pembuka (&lt;&gt;) lalu
+                                    isi kontent, dan di akhiri tag penutup (&lt;/&gt;), sebagai contoh :</p>
+                                <img src="image/element.png" alt="" class="img-responsive" width="700px">
+                                <li>Attribute</li>
+                                <p>Tag dapat mempunyai atribute. Atribute merupakan perintah tambahan yang di masukan ke
+                                    dalam sebuah elemen. Seperti contoh tag <b>&lt;img&gt;</b> ini tidak mempunyai
+                                    atribute, tetapi kalau mempunyai atribute <b>&lt;img src=”gambar.jpg”/&gt;</b>,
+                                    atributnya adalah src.</p>
+                                <img src="image/atribute.png" alt="" class="img-responsive" width="700px">
+                            </ul>
+                            <h3>kerangka HTML</h3>
+                            <ol class="list">
+                                <li><b>&lt;!DOCTYPE html&gt;</b></li>
+                                <p>Berfungsi untuk mendeklarasikan kepada komputer bahwa anda menuliskan sebuah perintah
+                                    di dalam kode HTML.</p>
+                                <li><b>&lt;html&gt;&lt;/html&gt;</b></li>
+                                <p>Berfungsi untuk tag yang menandakan proses mulai menuliskan kode program pada dokumen
+                                    HTML.</p>
+                                <li><b>&lt;head&gt;&lt;/head&gt;</b></li>
+                                <p>Tag ini digunakan untuk menambahkan metadata ke dalam dokumen html yang berisi judul,
+                                    deskripsi, library dan lain sebagainya.</p>
+                                <li><b>&lt;body&gt;&lt;/body&gt;</b></li>
+                                <p>Dan yang terakhir, tag body digunakan sebagai tempat untuk menuliskan setiap elemen
+                                    atau lebih tepatnya disebut juga dengan konten pada HTML itu sendiri. </p>
+                            </ol>
+                            <h3>Kesimpulan</h3>
+                            <p class="article-text">HTML merupakan bahasa markup yang berfungsi untuk bagaimana cara
+                                menampilkan sebuah kontent ke dalam sebuah browser, di dalam html juga terdapat tag,
+                                atribute, dan element, seperti yang sudah di jelaskan di atas.</p>
+                    </article>
+                    <article class="article-2">
+                        <h1 class="header">ARTIKEL LAIN</h1>
+                        <div class="box-wrap">
+                            <div class="box-content">
+                                <div class="img">
+                                    <img src="assets/img/logo-c++.png" alt="">
+                                </div>
+                                <small>18 desember 2021</small>
+                                <p>Condision tutorial,<br> condition php</p>
+                            </div>
+                            <div class="box-content">
+                                <div class="img">
+                                    <img src="assets/img/logo-c++.png" alt="">
+                                </div>
+                                <small>18 desember 2021</small>
+                                <p>Tipe data dalam PHP,<br> PHP</p>
+                            </div>
+                            <div class="box-content">
+                                <div class="img">
+                                    <img src="assets/img/logo-c++.png" alt="">
+                                </div>
+                                <small>18 desember 2021</small>
+                                <p>variable dalam PHP,<br> PHP</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <aside>
+                    <div class="widget">
+                        <h1>Artikel pilihan</h1>
+                        <div class="box-widget">
+                            <ul>
+                                <li>
+                                    <div class="img-label">
+                                        <img src="assets/img/logo-php.jpg" alt="">
+                                    </div>
+
+                                    <a href="#" class="article-box">
+                                        <div class="article-title">Apa itu PHP, Sejarah PHP,Membuat program dengan PHP
+                                            <div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="img-label">
+                                        <img src="assets/img/logo-php.jpg" alt="">
+                                    </div>
+                                    <a href="#" class="article-box">
+                                        <div class="article-title">Cara penamaan Variable pada bahasa pemrograman PHP
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="img-label">
+                                        <img src="assets/img/logo-php.jpg" alt="">
+                                    </div>
+
+                                    <a href="#" class="article-box">
+                                        <div class="article-title">Pada tutorial kali ini akan menjelaskan pembuatan
+                                            array dalam PHP</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="img-label">
+                                        <img src="assets/img/logo-php.jpg" alt="">
+                                    </div>
+
+                                    <a href="#" class="article-box">
+                                        <div class="article-title">Pada tutorial ini menjelaskan dasar-dasar dari bahasa
+                                            pemrograman php</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="copyright">&copy;Tsalmanisal. All right reserved</p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
