@@ -297,7 +297,7 @@ section {
 }
 .struktur-org .mission-content img{
     margin-top: 20px;
-    width: 70%;
+    width: 90%;
 }
 /* our work */
 #ourWork {
@@ -510,6 +510,12 @@ section {
         bottom: 20px;
         right: -100px;
     }
+    .mission .mission-content {
+        padding: 20px;
+    }
+    #ourWork {
+        padding: 50px 0;
+    }
     #blog .blog-content .content {
         width: 400px;
         margin: 0;
@@ -521,9 +527,6 @@ section {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    #ourWork {
-        padding: 50px;
     }
 }
 
